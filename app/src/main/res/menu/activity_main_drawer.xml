@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_blank"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_makePrediction"
+            android:icon="@drawable/ic_blank"
+            android:title="Make Prediction" />
+        <item
+            android:id="@+id/nav_previousPrediction"
+            android:icon="@drawable/ic_blank"
+            android:title="Previous Predictions" />
+    </group>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/nav_actualScores"
+                android:icon="@drawable/ic_blank"
+                android:title="Actual Scores" />
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@drawable/ic_blank"
+                android:title="Config" />
+        </menu>
+    </item>
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/nav_predictionArchive"
+                android:icon="@drawable/ic_blank"
+                android:title="Prediction Archive" />
+            <item
+                android:id="@+id/nav_generalInfo"
+                android:icon="@drawable/ic_blank"
+                android:title="General Info" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_blank"
+                android:title="Login / Signup" />
+        </menu>
+    </item>
+
+</menu>
